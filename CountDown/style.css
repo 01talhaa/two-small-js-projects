@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(R.jpeg);
+    background-size: contain;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h2 {
+    font-size: 5rem;
+    text-align: center;
+}
+.col{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.col div{
+    width: 250px;
+    align-items: center;
+
+}
+
+input{
+    height: 60px;
+    width: 75%;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 30px;
+}

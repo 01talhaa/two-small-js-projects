@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    transition: 1s;
+    background-color: #fff;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 25vh;
+    width: 40vw;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+#container button {
+    width: 100%;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: lightseagreen;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+h2{
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    background-color: lightslategray;
+    border-radius: 15px;
+}
